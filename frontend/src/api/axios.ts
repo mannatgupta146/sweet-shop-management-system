@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://YOUR-BACKEND-URL.onrender.com/api",
+  baseURL: "https://sweet-shop-management-system-backend-9t7v.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {
