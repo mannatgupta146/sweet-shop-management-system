@@ -14,7 +14,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://your-frontend-name.vercel.app"
+      "https://sweet-shop-management-system-imy5.vercel.app",
     ],
     credentials: true,
   })
