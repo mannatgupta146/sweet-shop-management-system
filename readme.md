@@ -1,9 +1,3 @@
-Perfect 👍
-Below is a **complete, submission-ready `README.md`** written exactly according to the **TDD Kata: Sweet Shop Management System** requirements.
-You can **copy–paste this directly** into your repo.
-
----
-
 # 🍬 Sweet Shop Management System
 
 A full-stack Sweet Shop Management System built using **Node.js (TypeScript), Express, MongoDB, and React**, following **Test-Driven Development (TDD)** principles and modern development practices.
