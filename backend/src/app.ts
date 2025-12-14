@@ -9,6 +9,14 @@ dotenv.config();
 
 const app = express();
 
+app.get("/", (_req, res) => {
+  res.json({
+    status: "OK",
+    message: "Sweet Shop API is running 🚀",
+  });
+});
+
+
 app.use(
   cors({
     origin: [
