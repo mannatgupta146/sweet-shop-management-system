@@ -9,7 +9,6 @@ dotenv.config();
 
 const app = express();
 
-// ✅ CORS (allow frontend in dev + prod)
 app.use(
   cors({
     origin: [
