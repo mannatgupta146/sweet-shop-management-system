@@ -9,17 +9,20 @@ dotenv.config();
 
 const app = express();
 
-// 🔥 CORS MUST COME BEFORE ROUTES
+// ✅ CORS (allow frontend in dev + prod)
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "https://your-frontend-name.vercel.app"
+    ],
     credentials: true,
   })
 );
 
 app.use(express.json());
 
-// ✅ routes
+// routes
 app.use("/api/auth", authRoutes);
 app.use("/api/sweets", sweetRoutes);
 
